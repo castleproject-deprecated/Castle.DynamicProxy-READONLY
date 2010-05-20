@@ -70,7 +70,7 @@
 	</target>
 
 	<target name="set-release-project-configuration" description="Perform a 'release' build">
-		<property name="build.debugoutput"		value="Enable" />
+		<property name="build.debugoutput"		value="PdbOnly" />
 		<property name="build.optimize" 	value="true" overwrite="false" />
 	</target>
 
